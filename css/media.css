@@ -92,6 +92,134 @@ font-size: 15px;
     font-size: 15px;
 
 }
+   /* work start */
+   .work_title{
+    font-size: 22px;
+    padding-bottom: 40px;
+}
+.p4{
+    margin-left: 35px;
+}
+ .work_tab {
+    padding-left: 25px;
+    padding-bottom: 20px;
+    font-size: 12px;
+}
+.work-img:hover .icon li a {
+    top: 30%;
+    left: 45%;
+    opacity: 1;
+}
+.work-img .icon li a {
+    font-size: 40px;
+}
+.details h2{
+    font-size: 16px;
+}
+.details p{
+font-size: 14px;
+}
+ /* work end */
+ /* why start */
+ .why{
+    padding-bottom: 35px;
+ }
+ .why_title {
+    padding-bottom: 40px;
+}
+.why_item{
+    text-align: center;
+}
+.why_icon {
+    font-size: 22px;
+    margin-bottom: 18px;
+    margin-top: -16px;
+}
+.why_p{
+    text-align: center;
+}
+.why_h1{
+    font-size: 16px;
+    text-align: center;
+}
+.why_p {
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.why_hr {
+    width: 260px;
+    margin-left: 19px;
+    margin-bottom: 35px;
+    }
+    
+    
+
+
+ /* why end */
+ /* who start */
+ .who_title {
+    padding-bottom: 45px;
+}
+ .who_h1 {
+    font-size: 17px;
+}
+.who_card {
+    margin-left: 24px;
+    width: 250px;
+}
+.who_card {
+    margin-bottom: 35px;
+}
+/* who end */
+    /* best start */
+.best{
+        padding-bottom: 30px;
+    }
+.b_item {
+    padding: 50px 32px 50px 35px;
+}
+.b_header h2 {
+    font-size: 16px;
+}
+.b_h3 {
+    font-size: 16px;
+    padding: 20px 0;
+}
+.b_p{
+    font-size: 14px;
+}
+.b_h3 span {
+    font-size: 30px;
+}
+
+    /* best end */
+        /* buy start */
+.buy{
+    height: 80px;
+}
+.buy_item {
+    padding-top: 20px;
+}
+.buy_text {
+    font-size: 14px;
+    }
+.buy_item a {
+    font-size: 14px;
+    margin-left: 22px;
+    }
+.buy_item a {
+    margin-left: -18px;
+    padding: 5px 0 4px 6px;
+}
+.buy_a{
+        font-size: 14px;
+}
+.buy_item a span {
+     padding: 0px 8px 0 8px;
+    }
+    /* buy end */
+
 }
 
  /* Small devices (landscape phones, 576px and up) */
@@ -137,8 +265,120 @@ margin-top: -1px;
 .w_item {
     padding: 60px 15px 30px;
 }
+   /* work start */
+
+.work {
+
+    padding-bottom: 40px;
+}
+.work_l {
+    margin-right: -10px;
+}
+.work_title{
+    font-size: 25px;
+    padding-bottom: 40px;
+}
+ .work_tab {
+    padding-bottom: 25px;
+    font-size: 14px;
+}
+.work-img:hover .icon li a {
+    top: 36%;
+    left: 47%;
+    opacity: 1;
+}
+.work-img .icon li a {
+    font-size: 45px;
+}
+.details h2{
+    font-size: 17px;
+}
+.details p{
+font-size: 15px;
+}
+ /* work end */
+ /* why start */
+ .why{
+    padding-bottom: 40px;
+ }
+ .why_title{
+    padding-bottom: 50px;
+ }
+.why_item{
+    text-align: center;
+}
+.why_icon {
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: -18px;
+}
+.why_p{
+    text-align: center;
+}
+.why_h1{
+    font-size: 17px;
+    text-align: center;
+}
+.why_p {
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.why_hr{
+    width: 490px;
+    margin-left: 15px;
+    margin-bottom: 40px;}
+
+
+ /* why end */
+ /* who start */
+ .who_card {
+    margin-bottom: 50px;
+}
+ .who_h1 {
+
+    font-size: 16px;
+
+}
+.who_p {
+
+    font-size: 15px;
+
+}
+    /* who end */
+    /* best start */
+.best{
+    padding-bottom: 40px;
+}
+.b_item {
+    padding: 50px 32px 50px 35px;
+}
+.b_header h2 {
+    font-size: 17px;
+}
+.b_h3 {
+    font-size: 17px;
+    padding: 25px 0;
+}
+.b_h3 span {
+    font-size: 30px;
+}
+.b_item a {    
+    margin-left: 0px;
 }
 
+
+    /* best end */
+    /* buy start */
+.buy_text {
+    font-size: 16px;
+    }
+.buy_item a {
+    margin-left: -18px;
+    }
+    /* buy end */
+
+}
  /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
 /* header start */
@@ -167,8 +407,67 @@ margin-top: -1px;
 .btn_ss{
 margin-top: -1px;
 }
-
+/* about start */
+.a_text {
+    text-align: center;
+    padding-top: 50px;
 }
+ /* work seection start  */
+.work-img .icon li a {
+        font-size: 50px;
+    }
+  .work .details{
+    padding: 0;
+  }
+  /* work seection end  */
+  /* why start */
+.why {
+    padding-bottom: 40px;
+}
+.why_item{
+    text-align: center;
+}
+.why_icon {
+    font-size: 40px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: -18px;
+}
+
+
+
+.why_h2 {
+    margin-left: -80px;
+}
+
+.why_p {
+    
+    margin-bottom: 40px;
+}
+.why_hr{
+    width: 295px;
+    margin-left: 20px;
+}
+
+ /* why end */
+ /* best start */
+ .best{
+    padding-bottom: 50px;
+}
+ .b_item a {    
+    margin-left: 50px;
+}
+ /* best end */
+ /* buy start */
+ .buy_item a {
+    margin-left: -18px;
+}
+.buy_text {
+    font-size: 15px;
+ /* buy end */
+}
+}
+
 
  /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) { 
@@ -176,6 +475,37 @@ margin-top: -1px;
 .s_item h1 {
     font-size: 50px;
 }
+/* why start */
+.why_h2 {
+    margin-left: 10px;}
+
+.why_hr{
+    width: 295px;
+
+}
+/* about start */
+.who_h1 {
+    font-size: 16px;
+    margin-left: 3px;
+
+}
+.who_p {
+    margin-left: 3px;
+}
+
+/* about end */
+/* best start */
+.b_item {
+    padding: 50px 18px 50px 20px;
+
+}
+.buy_text {
+    font-size: 16px;
+}
+.b_item a {
+    margin-left: 1px;
+}
+/* best end */
 }
 
  /* Extra large devices (large desktops, 1200px and up) */
@@ -184,9 +514,22 @@ margin-top: -1px;
 .a_text p {
     padding-top: 17px;
 }
+/* best start */
+.b_item a {    
+    margin-left: 8px;
+}
+/* buy start */
+
+.buy_item a {
+    margin-left: 87px;
+}
 }
 
  /* Extra Extra large devices (large desktops, 1400px and up) */
 @media (min-width: 1400px) { 
+    /* buy start */
+.buy_item a {
+    margin-left: 132px;
+}
 
 }
