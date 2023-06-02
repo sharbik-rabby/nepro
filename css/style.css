@@ -721,6 +721,131 @@ padding-bottom: 0px;
 
 /* funder section end  */
 
+/* contact section start  */
+.contact{
+    padding-bottom: 100px;
+}
+fieldset.contact{
+    border: 1px solid #8e8e8e;
+}
+.contact legend{
+    margin: 0 auto;
+    float: none;
+    width: auto;
+    text-transform: uppercase;
+}
+legend.contact{
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    color: #333333;
+}
+.input-c {
+    margin: 60px 0 40px;
+}
+.input-c input {   
+    margin-bottom: 40px;
+    padding: 14px 20px;
+    border: none;
+    width: 100%;
+    outline: 0;
+    border-bottom: 1px solid #8e8e8e;
+    transition: .5s;
+ 
+}
+.input-c input:hover{
+    color: #333;
+    border-bottom: 1px solid #333;
+    
+}
+.input-c input:hover::placeholder{
+    color: #333;
+    
+}
+.btn_cont{
+    display: inline-block;
+    margin: 0 auto;
+    padding: 14px 0 14px 0px;
+    color: #333333;
+    border-radius: 0;
+    width: 190px;
+    border: 1px solid #8e8e8e;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: .3s;
+}
+.btn_cont:hover{
+    font-weight: 500;
+    color: #333333;
+    border: 1px solid #333333;
+}
+.btn_cont i{
+    padding-left: 25px;
+}
+
+/* contact section end  */
+/* agency section start */
+.agency{
+    background-image: url(../img/l_bg.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.ag_title{
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: 600; 
+}
+.text-center{}
+.ag_text {
+    padding: 0px 256px 20px;
+    color: #ffffff;
+}
+.ag_links{
+padding-bottom: 40px;
+}
+
+.ag_links ul li a i{     
+    font-size: 26px;
+    padding: 10px;
+    color: #f8f8f8;
+    border: 1px solid #f8f8f8;
+}
+.ag_links ul li a i:hover {     
+    color: #333333;
+    background-color: #ffffff;
+
+}
+
+/* agency section end */
+
+
+/* footer start */
+.footer{
+    border-top: 1px solid #f8f8f8;
+
+}
+.footer_item {
+    padding-top: 35px;
+    padding-bottom: 15px;
+}
+.footer_p{
+    color: #f8f8f8;
+}
+.footer_links{}
+.footer_links ul {
+    padding-left: 150px;
+} 
+.footer_links ul li{}
+.footer_links ul li a{
+    padding-right: 10px;
+    text-decoration: none;
+    color: #f8f8f8;
+}
+
+
+/* footer end*/
+
+
 
 
 

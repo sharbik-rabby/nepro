@@ -253,7 +253,66 @@ font-size: 14px;
 .rotate-2{
     margin-top: 250px;
 }
+    /* contact start */
+    .contact {
+        padding-bottom: 50px;
+    }
+.input-c {
+        margin: 40px 0 30px;
+}
+fieldset.contact {
+    padding-bottom: 0;
+}
+legend.contact{
+    font-size: 20px;
+    padding-bottom: 0px;
 
+}
+.input-c input {   
+    font-size: 15px;
+}
+.btn_cont{
+        font-size: 15px;
+  
+}
+/* agency start */
+.ag_title{
+    font-size: 20px;
+    font-weight: 500; 
+}
+.ag_text {
+    padding: 0px 0px 20px;
+}
+.ag_links{
+padding-bottom: 30px;
+}
+
+.ag_links ul li a i{     
+    font-size: 16px;
+
+}
+
+/* agency section end */
+  /* footer start */
+  .footer_p{    
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+  .footer_links p{
+
+    text-align: center;
+    font-size: 14x;
+  }
+  .footer_links ul {
+    padding-left: 0px;
+}
+  .footer_links ul li a {
+    font-size: 14px;
+    padding-right: 0px;
+
+
+}
 }
 
  /* Small devices (landscape phones, 576px and up) */
@@ -446,8 +505,52 @@ font-size: 15px;
 .rotate-2{
     margin-top: 250px;
 }
+   /* contact start */
+   fieldset.contact {
+    padding-bottom: 0;
+}
+.input-c {
+    margin: 50px 0 35px;
+}
+legend.contact{
+    font-size: 25px;
+    padding-bottom: 0;
+}
+/* agency section start */
+.contact{
+    padding-bottom: 60px;
+}
 
+.ag_title{
+    font-size: 25px;
+    font-weight: 500; 
+}
+.ag_text {
+    padding: 0px 80px 20px;
+}
 
+.ag_links{
+padding-bottom: 35px;
+}
+
+.ag_links ul li a i{     
+    font-size: 22px;
+
+}
+
+/* agency section end */
+  /* footer start */
+  .footer_links p{
+    font-size: 15x;
+  }
+  .footer_links ul {
+    padding-left: 50px;
+}
+  .footer_links ul li a {
+    font-size: 15px;
+    padding-right: 0px;
+
+}
 }
  /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -550,6 +653,31 @@ margin-top: -1px;
     margin: 84px 0px 30px 20px;
 }
   /* founder end */
+  /* agency start */
+  .contact{
+    padding-bottom: 80px;
+  }
+  fieldset.contact {
+    padding-bottom: 0;
+}
+legend.contact{
+    padding-bottom: 0px;
+
+}
+  .ag_text {
+    padding: 0px 150px 20px;
+}
+  /* footer start */
+  .footer_links ul {
+    padding-left: 10px;
+}
+.footer_p {
+    padding-right: 80px;
+}
+  .footer_links ul li a {
+    padding-right: 0px;
+
+}
 }
 
 
@@ -626,6 +754,19 @@ margin-top: -1px;
 .rotate-2 {
     margin-top: 70px;
 }
+/* AGENCY START */
+fieldset.contact {
+    padding-bottom: 0;
+}
+legend.contact{
+    padding-bottom: 0px;
+
+}
+
+/* footer start */
+.footer_links ul {
+    padding-left: 10px;
+}
 
 }
 
@@ -672,6 +813,18 @@ margin-top: -1px;
 .rotate-2 {
     margin-top: 70px;
 }
+/* AGENCY START */
+fieldset.contact {
+    padding-bottom: 0;
+}
+legend.contact{
+    padding-bottom: 0px;
+
+}
+/* footer start */
+.footer_links ul {
+    padding-left: 85px;
+}
 }
 
  /* Extra Extra large devices (large desktops, 1400px and up) */
@@ -693,5 +846,13 @@ margin-top: -1px;
 
 .a_text a {
     margin-left: -176px;
+}
+/* AGENCY START */
+fieldset.contact {
+    padding-bottom: 0;
+}
+legend.contact{
+    padding-bottom: 0px;
+
 }
 }
