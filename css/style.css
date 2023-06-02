@@ -235,12 +235,11 @@ padding-bottom: 95px;
     padding-top: 65px;
 }
 .a_img{
-    
-    width: 475px;
     margin: 0 auto;
-    
+    width: 475px;
 }
 .a_img img{
+   
     width: 100% !important;
 }
 .a_text h1{
@@ -608,7 +607,7 @@ padding-bottom: 0px;
 .buy{
     height: 100px;
     background-color: #f8f8f8;
-    margin-bottom: 160px
+
 }
 .buy_item{
     padding-top: 40px;
@@ -634,49 +633,93 @@ padding-bottom: 0px;
 
 /* buy now end*/
 
-/* slider2 start */
-.slider{
+/* funder section start  */
+.founder {
+    margin: 100px 0;
+  
+}
+.row.bor {
+    width: 93%;
+}
+.c-bov{
+    border: 1px solid #8e8e8e;
+}
+.c_content{
+    position: relative;
+}
+.found-c-btn {
+    padding: 37px 0;
+    border: 1px solid #8e8e8e;
+    position: absolute;
+    right: 0;
+    top: 0px;
+    bottom: 0;
+    background-color: #f8f8f8;
+}
 
+.c_img {
+    margin: 30px 0px 30px 20px;
 }
-.slider_img{
 
+.c_content {
+    padding: 18px 8px; 
+    padding-top: 28px;
 }
-.slider_text{
 
+.c_content h4 {
+    font-family: 'Lato', sans-serif;
+    color: #333333;
+    font-size: 18px;
+    font-weight: 700;
 }
-.slider_text h2{
-    
-}
-.slider_text h3{}
-.slider_text h4{}
-.slider_text p{}
-.slider_text span{}
-
-.s_border{
-    overflow: auto;
-    border:1px solid #8e8e8e;
-    box-sizing:border-box;
-}
-.btn_c{
-    transform: rotate(90deg);
-    transform-origin: left; 
+.c_content h6 {
+    font-size: 18px;
     color: #8e8e8e;
-    background: transparent;
-    padding: 1px 6px;
-    text-transform: uppercase;
-    border-style: none;
-
-
+    margin: 15px 0 15px;
 }
-.s_t{
-    -webkit-transform: rotate(90deg);
-    transform-origin: left; 
+.c_content h5 {
+    font-size: 18px;
+    color: #333333;
 }
-.btn_c:hover{
+.c_content p {
+    padding-top: 40px;
+    margin-right: 10px;
+}
+.c_content span {
+    margin-right: 10px;
+}
+.rotate-1{   
+    margin-top: 5px;
+    border: none;
+    color: #8e8e8e;
+    -webkit-transform: rotate(-269deg);
+    background-color: transparent;
+    text-transform: uppercase; 
+}
+.rotate-1:hover{   
     font-weight: 500;
     color: #333333;
 }
-/* slider2 end */
+.span-rotate{
+    margin-top: 120px;
+    -webkit-transform: rotate(-269deg);
+}
+.rotate-2{
+    margin-top: 90px;
+    border: none;
+    -webkit-transform: rotate(-269deg);
+    color: #8e8e8e;
+    background-color: transparent;
+    text-transform: uppercase;  
+}
+.rotate-2:hover{   
+    font-weight: 500;
+    color: #333333;
+}
+
+
+
+/* funder section end  */
 
 
 
